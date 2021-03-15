@@ -1,18 +1,18 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class MariLobodaModelData : MonoBehaviour
+﻿namespace AircraftSimulator.Physics.Basic
 {
-    // Start is called before the first frame update
-    void Start()
+    public struct MariLobodaModelData
     {
-        
-    }
+        public float DeadZone;
+        public float ControlRate;
+        public float Lerp;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        public float MaxTurn;
+        public float AileronTurnRate;
+        public float ElevatorTurnRate;
+        public float RudderTurnRate;
+
+        public float aerodynamicDrag;
+        public float frontalResistanceArea;
+        public float airDensity;
     }
 }

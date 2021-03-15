@@ -9,7 +9,8 @@ public enum ModelEnum
     IgorGruzdev,
     IlyaAntonov,
     FedorKondratenko,
-    DariaKlochko
+    DariaKlochko,
+    MariLoboda
 }
 
 public class SimulatorComponent : MonoBehaviour {
