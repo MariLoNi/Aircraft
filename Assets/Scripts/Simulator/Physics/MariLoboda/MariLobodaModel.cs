@@ -112,7 +112,7 @@ namespace AircraftSimulator.Physics.Basic
          * Vector3 speed - previus velosity vector in aircraft coordinate system
          * 
          * output:
-         * lift forc accelerated vector in aircraft coordinate system
+         * air resistance forc accelerated vector in aircraft coordinate system
          */
         Vector3 accelAirResistance(Vector3 speed)
         {
